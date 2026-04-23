@@ -8,9 +8,15 @@
 </head>
 <body>
 	<h2>Home</h2>
+	<!-- /temp   : 서버(TestController)에 설정된 @RequestMapping("/temp") 주소를 찾아가라 -->
+	<!--   ?     : "여기서부터는 주소가 아니라 보낼 데이터(파라미터) 시작이다! 라는 구분자  -->
+	<!-- a=hello : 'a'라는 이름표를 붙여서 "hello"라는 글자를 내보낸다 -->
+	<!-- b=123   : 'b'라는 이름표를 붙여서 "123" 글자를 내보낸다 -->
+	
 	<a href="/temp?a=hello&b=123">temp</a>
 	
-	<hr />
+	
+	<hr />  <!-- 수평선 표시 -->
 	<h2>GET 방식 전송</h2>
 	<ul>
 	  <li>Parameter 처리 방법</li>
